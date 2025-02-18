@@ -204,6 +204,14 @@ Math Algorithms -
 - Power of two
 - Recursion
 - Fibonacci sequence with Recursion
+- Factorial of a number with Recursion
+
+The approach
+------------
+- Problem statement
+- Try solving the problem
+- Implement the solution together 
+- Determining the Big-O of the solution
 
 
 
