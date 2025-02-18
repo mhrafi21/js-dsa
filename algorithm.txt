@@ -195,3 +195,16 @@ Search - O(n)
 shift/unshift/slice/splice - O(n)
 forEach/map/filter/reduce - O(n)
 
+
+Math Algorithms -
+-----------------
+- Fibonacci sequence
+- Factorial of a number
+- Prime number
+- Power of two
+- Recursion
+- Fibonacci sequence with Recursion
+
+
+
+
