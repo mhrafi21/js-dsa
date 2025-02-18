@@ -3,6 +3,7 @@
 - Part one of a two part(Algorithm and Data structure) course
 
 Course Topics -
+-------------------
 - algorithms
 - measuring performance
 - Time and Space complexity
@@ -13,6 +14,7 @@ Course Topics -
 - Misc. algorithms and problem solving
 
 Prerequisites -
+---------------------
 - Modern JavaScript
 - ES2015 Topics
 
@@ -20,3 +22,98 @@ Before we begin -
 - It might seem hard and that is because it is hard;
 - Have a pen and paper and trace the execution of code with a sample input.
 
+
+
+- What is algorithms?
+-----------------------
+An algorithms is a set of well-defined instructions to solve a particular problem.
+
+Programming - algorithm to add two numbers
+
+input - two numbers
+algorithm - add numbers using "+" and return the value
+output - sum of a and b
+
+Characteristics-
+---------------------
+- Well defined inputs and outputs
+- Each step should be clear and unambiguous
+- Language independent
+
+Why should we learn Algorithm -
+-----------------------------------------
+As a developer, you're going to come across problems that you need to solve learning algorithms translates to learning different techniques to efficiently solve those problems.
+- One problem can be solved in many ways using different algorithms
+- Every algorithm comes with its own tradeoffs when it comes to performance.
+
+Algorithm analysis - 
+--------------------------
+- There are multiple ways to solve one problem
+Ex:There are multiple algorithms to sort a list of numbers
+How do we analysis  which one of them is the most efficient algorithm?
+- Generally, when we talk about performance, we use an absolute measure if I can run 100 meters in 12 seconds, I'm faster than someone who takes 15 seconds.
+
+Algorithm analysis contd.
+-----------------------------
+The absolute running time of an algorithm cannot be predicted, since it depends on a number of factors 
+- Programming Language used to implement the algorithm
+- The computer the program runs on
+- Other programs running at the same time
+- Quality of the operating system
+
+
+Evaluation
+--------------------------
+Algorithm analysis contd.
+--------------------------
+We evaluate the performance of an algorithm in terms of its input size.
+
+Time complexity - Amount of time taken by an algorithm to run, as a function of input size.
+
+Space complexity - Amount of memory taken by an algorithm to run, as function input size
+
+By evaluating against the input size, the analysis is not only machine independent but the comparison is also more appropriate.
+
+
+There is no one solution thats works every single time. It is always good to know multiple ways to solve the problem and use the best solution, given your constraints.
+
+If your app needs to be very quick and has plenty of memory to work with, you don't have to worry about Space complexity
+
+If you have very little memory to work with, you should pick a solution that is relatively slower but needs less space.
+
+How to represent complexity
+--------------------------------------------
+Asymptotic notations
+--------------------
+- Mathematical tools to represent time and space complexity
+
+1. Big-O Notation (O-notation) - Worst case complexity
+2. Omega Notation - Best case complexity
+3. Theta Notation - Average case complexity
+
+
+Big-O Notation - 
+-----------------
+
+The worst case complexity of an algorithm is represented using the Big-O notation
+Big-O notation describes the complexity of an algorithm using algebraic terms 
+
+It has two important Characteristics -
+-----------------------------------------
+- It is expressed in terms of the input 
+- If focus on the bigger picture without caught up in the minute details
+
+
+Big-O Time complexity - 
+------------------------
+
+function summation(n){
+    let sum = 0; -------------------it is use only one 
+    for(let i = 1: i <= n: i++){
+        sum +=i; ------------------- it's run 4 times
+    }
+    return sum --------------------- it's only one;
+}
+
+summation(4) ------------------------ if we give 4
+-- Count the number of times a statement executes based on the input size.
