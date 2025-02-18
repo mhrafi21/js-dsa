@@ -31,3 +31,5 @@ function isPrime(n){
 console.log(isPrime(1)) // output: false
 console.log(isPrime(5)) // output: true
 console.log(isPrime(4)) // output: false
+
+// optimized primarily test - Integers larger than the square root do not need to be checked because, whenever n = a * b, one of the two factors a and b is less than or equal to the square root of n;
