@@ -12,3 +12,11 @@ Course Topics -
 - Search
 - Misc. algorithms and problem solving
 
+Prerequisites -
+- Modern JavaScript
+- ES2015 Topics
+
+Before we begin -
+- It might seem hard and that is because it is hard;
+- Have a pen and paper and trace the execution of code with a sample input.
+
