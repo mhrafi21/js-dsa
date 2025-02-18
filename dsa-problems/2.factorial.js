@@ -12,7 +12,7 @@ factorial(4) = 4 * 3 * 2 * 1
 */
 
 function factorial(n){
-    const result = 1;
+    let result = 1;
     for(let i = 2; i <= n; i++){
         result = result * i
     }
@@ -22,3 +22,14 @@ function factorial(n){
 console.log(factorial(0)) // output: 1
 console.log(factorial(1)) // output: 1
 console.log(factorial(5)) // output: 120
+
+
+/*
+    Big-o Guide 
+    ------------
+    Calculation not dependent on input size - 0(1)
+    1 loop - O(n)
+    2 nested loops - O(n power 2)
+    input size reduced by half - O(logn)
+    
+*/
