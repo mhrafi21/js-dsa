@@ -117,3 +117,81 @@ function summation(n){
 
 summation(4) ------------------------ if we give 4
 -- Count the number of times a statement executes based on the input size.
+
+
+It focuses on the bigger picture getting caught without getting caught up in the minute details.
+
+n + 2
+
+n = 100 ---- 100 + 2
+
+Time complexity --
+---------------------
+for(i=1; i<=n; i++){
+    for(j=1; j<=i; j++){
+
+    }
+}
+
+O(n power 2) - Quadratic ; 3n2 + 5n + 1;
+-------------------
+for(i=1; i<=n; i++){
+    for(j=1; j<=i; j++){
+        for(k=1; k<=j; k++){
+     }
+    }
+}
+O(n power 3) Cubic
+
+
+Space complexity --
+---------------------
+O(1) - constant 
+O(n) - Linear
+O(logn) - Logarithmic
+
+- Multiple algorithms exist for the same problem and there is no more right solution. Different algorithms work well under different constraints
+
+- The same algorithm with the same Programming Language can be implemented in different ways.
+
+- When writing programs at work, don't lose sight of the big picture. Rather tan writing clever code, write code that is simple to read and maintain.
+
+
+Objects - Big-O
+-------------------
+const persons = {
+    firstName: "Bruce",
+    lastName: "Wayne"
+}
+
+
+An object is a collection of key value pairs-
+-----------------------------------------------
+constant 
+insert - O(1)
+remove - O(1)
+Access - O(1)
+
+linear - 
+Search - O(n)
+Object.keys() - O(n)
+Object.values() - O(n)
+Object.entries - O(n)
+
+
+
+Array - Big - O
+-------------------
+const odd = [1,3,5,7,9]
+
+An Array is a collection of key value pairs-
+-----------------------------------------------
+constant 
+insert/remove at end - O(1)
+insert/remove at beginning - O(n)
+Access - O(1)
+
+Search - O(n)
+shift/unshift/slice/splice - O(n)
+forEach/map/filter/reduce - O(n)
+
