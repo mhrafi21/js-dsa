@@ -13,3 +13,14 @@ base case:
 F(n) = F(n-1) + F(n-2)
 
 */
+
+function recursiveFibonacci(n){
+    if(n < 2){
+        return n
+    }
+    return recursiveFibonacci(n-1) + recursiveFibonacci(n-2);
+}
+
+console.log(recursiveFibonacci(10)) // output: 55
+console.log(recursiveFibonacci(5)) // output: 5 
+console.log(recursiveFibonacci(3)) // output: 2
