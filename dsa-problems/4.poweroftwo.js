@@ -36,7 +36,10 @@ function isPowerOfTwo(n){
 }
 
 
-console.log(isPowerOfTwo(8))
+console.log(isPowerOfTwo(8));
+console.log(isPowerOfTwo(1));
+console.log(isPowerOfTwo(5));
+
 
 
 
