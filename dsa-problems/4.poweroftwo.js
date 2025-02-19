@@ -31,10 +31,14 @@ function isPowerOfTwo(n){
     if( n < 1){
         return false
     }
+   
     return (n & (n-1)) === 0
 }
 
-console.log(isPowerOfTwo(1))
+
 console.log(isPowerOfTwo(8))
-console.log(isPowerOfTwo(5))
-console.log(isPowerOfTwo(66))
+
+
+
+// Time complexity: O(log n) - we are dividing the number by 2 in each iteration
+// Space complexity: O(1) - no extra space is required
